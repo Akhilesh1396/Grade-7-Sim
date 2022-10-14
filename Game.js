@@ -1,9 +1,9 @@
 const config = {
   type: Phaser.AUTO,
-  width: 1280,
-  height: 720,
+  width: 800,
+  height: 450,
   scale: {
-    mode: Phaser.Scale.FIT,
+    mode: Phaser.Scale.NONE,
     autoCenter: Phaser.Scale.CENTER_BOTH,
   },
   zoom: 1,
@@ -12,7 +12,8 @@ const config = {
   physics: {
     default: "arcade",
   },
-  scene: [LoadScene, StartScene, GameScene, EndScene],
+  //scene: [LoadScene, StartScene, GameScene, EndScene],
+  scene: [GameScene,HintScene, EndScene,LoadScene, StartScene ],
   audio: {
     disableWebAudio: true,
   },

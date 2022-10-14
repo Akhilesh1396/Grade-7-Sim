@@ -1,0 +1,671 @@
+{
+	"textures": [
+		{
+			"image": "arrowBreatheAnim.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 188,
+				"h": 1462
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "BREATHE0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 82,
+						"y": 82,
+						"w": 86,
+						"h": 86
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 86,
+						"h": 86
+					}
+				},
+				{
+					"filename": "BREATHE1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 82,
+						"y": 82,
+						"w": 86,
+						"h": 86
+					},
+					"frame": {
+						"x": 89,
+						"y": 1,
+						"w": 86,
+						"h": 86
+					}
+				},
+				{
+					"filename": "BREATHE2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 82,
+						"y": 82,
+						"w": 86,
+						"h": 86
+					},
+					"frame": {
+						"x": 1,
+						"y": 89,
+						"w": 86,
+						"h": 86
+					}
+				},
+				{
+					"filename": "BREATHE3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 82,
+						"y": 82,
+						"w": 86,
+						"h": 86
+					},
+					"frame": {
+						"x": 89,
+						"y": 89,
+						"w": 86,
+						"h": 86
+					}
+				},
+				{
+					"filename": "BREATHE4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 81,
+						"w": 88,
+						"h": 88
+					},
+					"frame": {
+						"x": 1,
+						"y": 177,
+						"w": 88,
+						"h": 88
+					}
+				},
+				{
+					"filename": "BREATHE5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 81,
+						"w": 88,
+						"h": 88
+					},
+					"frame": {
+						"x": 91,
+						"y": 177,
+						"w": 88,
+						"h": 88
+					}
+				},
+				{
+					"filename": "BREATHE6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 81,
+						"w": 88,
+						"h": 88
+					},
+					"frame": {
+						"x": 1,
+						"y": 267,
+						"w": 88,
+						"h": 88
+					}
+				},
+				{
+					"filename": "BREATHE7.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 80,
+						"y": 80,
+						"w": 90,
+						"h": 90
+					},
+					"frame": {
+						"x": 91,
+						"y": 267,
+						"w": 90,
+						"h": 90
+					}
+				},
+				{
+					"filename": "BREATHE8.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 80,
+						"y": 80,
+						"w": 90,
+						"h": 90
+					},
+					"frame": {
+						"x": 1,
+						"y": 359,
+						"w": 90,
+						"h": 90
+					}
+				},
+				{
+					"filename": "BREATHE9.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 80,
+						"y": 80,
+						"w": 90,
+						"h": 90
+					},
+					"frame": {
+						"x": 93,
+						"y": 359,
+						"w": 90,
+						"h": 90
+					}
+				},
+				{
+					"filename": "BREATHE10.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 79,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 1,
+						"y": 451,
+						"w": 92,
+						"h": 92
+					}
+				},
+				{
+					"filename": "BREATHE11.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 79,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 95,
+						"y": 451,
+						"w": 92,
+						"h": 92
+					}
+				},
+				{
+					"filename": "BREATHE12.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 79,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 1,
+						"y": 545,
+						"w": 92,
+						"h": 92
+					}
+				},
+				{
+					"filename": "BREATHE13.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 79,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 95,
+						"y": 545,
+						"w": 92,
+						"h": 92
+					}
+				},
+				{
+					"filename": "BREATHE14.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 79,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 1,
+						"y": 639,
+						"w": 92,
+						"h": 92
+					}
+				},
+				{
+					"filename": "BREATHE15.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 79,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 95,
+						"y": 639,
+						"w": 92,
+						"h": 92
+					}
+				},
+				{
+					"filename": "BREATHE16.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 79,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 1,
+						"y": 733,
+						"w": 92,
+						"h": 92
+					}
+				},
+				{
+					"filename": "BREATHE17.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 79,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 95,
+						"y": 733,
+						"w": 92,
+						"h": 92
+					}
+				},
+				{
+					"filename": "BREATHE18.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 79,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 1,
+						"y": 827,
+						"w": 92,
+						"h": 92
+					}
+				},
+				{
+					"filename": "BREATHE19.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 79,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 95,
+						"y": 827,
+						"w": 92,
+						"h": 92
+					}
+				},
+				{
+					"filename": "BREATHE20.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 79,
+						"y": 79,
+						"w": 92,
+						"h": 92
+					},
+					"frame": {
+						"x": 1,
+						"y": 921,
+						"w": 92,
+						"h": 92
+					}
+				},
+				{
+					"filename": "BREATHE21.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 80,
+						"y": 80,
+						"w": 90,
+						"h": 90
+					},
+					"frame": {
+						"x": 95,
+						"y": 921,
+						"w": 90,
+						"h": 90
+					}
+				},
+				{
+					"filename": "BREATHE22.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 80,
+						"y": 80,
+						"w": 90,
+						"h": 90
+					},
+					"frame": {
+						"x": 1,
+						"y": 1015,
+						"w": 90,
+						"h": 90
+					}
+				},
+				{
+					"filename": "BREATHE23.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 80,
+						"y": 80,
+						"w": 90,
+						"h": 90
+					},
+					"frame": {
+						"x": 93,
+						"y": 1015,
+						"w": 90,
+						"h": 90
+					}
+				},
+				{
+					"filename": "BREATHE24.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 81,
+						"w": 88,
+						"h": 88
+					},
+					"frame": {
+						"x": 1,
+						"y": 1107,
+						"w": 88,
+						"h": 88
+					}
+				},
+				{
+					"filename": "BREATHE25.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 81,
+						"w": 88,
+						"h": 88
+					},
+					"frame": {
+						"x": 91,
+						"y": 1107,
+						"w": 88,
+						"h": 88
+					}
+				},
+				{
+					"filename": "BREATHE26.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 81,
+						"w": 88,
+						"h": 88
+					},
+					"frame": {
+						"x": 1,
+						"y": 1197,
+						"w": 88,
+						"h": 88
+					}
+				},
+				{
+					"filename": "BREATHE27.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 82,
+						"y": 82,
+						"w": 86,
+						"h": 86
+					},
+					"frame": {
+						"x": 91,
+						"y": 1197,
+						"w": 86,
+						"h": 86
+					}
+				},
+				{
+					"filename": "BREATHE28.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 82,
+						"y": 82,
+						"w": 86,
+						"h": 86
+					},
+					"frame": {
+						"x": 1,
+						"y": 1287,
+						"w": 86,
+						"h": 86
+					}
+				},
+				{
+					"filename": "BREATHE29.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 82,
+						"y": 82,
+						"w": 86,
+						"h": 86
+					},
+					"frame": {
+						"x": 89,
+						"y": 1287,
+						"w": 86,
+						"h": 86
+					}
+				},
+				{
+					"filename": "BREATHE30.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 250,
+						"h": 250
+					},
+					"spriteSourceSize": {
+						"x": 82,
+						"y": 82,
+						"w": 86,
+						"h": 86
+					},
+					"frame": {
+						"x": 1,
+						"y": 1375,
+						"w": 86,
+						"h": 86
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:9b55cf44481fe69204fdf12b3b754423:b1fd5b11a94dc6bcf61b6dc5d5c3e95f:adac6d42bb3bf6b869af638af5d02966$"
+	}
+}
