@@ -13,7 +13,7 @@ const config = {
     default: "arcade",
   },
   //scene: [LoadScene, StartScene, GameScene, EndScene],
-  scene: [GameScene,HintScene, EndScene,LoadScene, StartScene ],
+  scene: [LoadScene,GameScene,HintScene, EndScene, StartScene ],
   audio: {
     disableWebAudio: true,
   },

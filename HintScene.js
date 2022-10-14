@@ -8,11 +8,6 @@ class HintScene extends Phaser.Scene {
 
   preload() {
 
-    this.load.image("overlay", "assets/GameSceneAssets/overlay.png");
-
-    this.load.image("hint", "assets/GameSceneAssets/hint.png");
-    this.load.image("hint2", "assets/GameSceneAssets/hint2.png");
-    this.load.image("hintClose", "assets/GameSceneAssets/hintClose.png");
   }
 
   create() {
@@ -21,7 +16,7 @@ class HintScene extends Phaser.Scene {
 
     this.hint = this.add.image(400,100,'hint').setOrigin(0.5,0).setAlpha(0)
 
-    this.hintClose = this.add.image(586,95,'hintClose').setOrigin(0).setAlpha(0).setInteractive({ cursor: "pointer" });
+    this.hintClose = this.add.image(586,105,'hintClose').setOrigin(0).setAlpha(0).setInteractive({ cursor: "pointer" });
 
     this.hintClose.on("pointerdown",
     ()=>{ 
@@ -48,6 +43,7 @@ class HintScene extends Phaser.Scene {
         onComplete:()=>{
           if(level==5){
             this.hint.setTexture('hint2')
+            this.hintClose.y = 95
           }
           this.tweens.add({
             targets:[this.hint,this.hintClose],

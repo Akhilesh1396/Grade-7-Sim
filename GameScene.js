@@ -17,58 +17,11 @@ class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.plugin('rexroundrectangleplugin', 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexroundrectangleplugin.min.js', true);
-    this.load.plugin('rexflashplugin', 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexflashplugin.min.js', true);
-    this.load.image("bg", "assets/GameSceneAssets/bg.png");
-    this.load.atlas('arrowBreatheAnim','/assets/GameSceneAssets/arrowBreatheAnim.png','/assets/GameSceneAssets/arrowBreatheAnim.json')
-this.load.atlas('arrowRevealAnim','/assets/GameSceneAssets/arrowRevealAnim.png','/assets/GameSceneAssets/arrowRevealAnim.json')
-this.load.atlas("endConfetti","assets/GameSceneAssets/checkConfettiAnim.png","assets/GameSceneAssets/checkConfettiAnim.json");
-
-this.load.image("wrong", "assets/GameSceneAssets/wrong.png");
-this.load.image("correct", "assets/GameSceneAssets/correct.png");
-
-this.load.image("rightText","assets/GameSceneAssets/rightText.png")
-
-this.load.image("rightText_on","assets/GameSceneAssets/rightText_on.png")
-this.load.image("leftText","assets/GameSceneAssets/leftText.png")
-this.load.image("leftText_on","assets/GameSceneAssets/leftText_on.png")    
-
-    this.load.image("mhand", "assets/GameSceneAssets/mhand.png");
-    this.load.image("hhand", "assets/GameSceneAssets/hhand.png");
-    for(let i=1;i<9;i++){
-    this.load.image("plus"+i, "assets/GameSceneAssets/"+i+".png");
-    }
-    for(let i=1;i<9;i++){
-      this.load.image("minus"+i, "assets/GameSceneAssets/-"+i+".png");
-      }
-
-    this.load.image("towers", "assets/GameSceneAssets/towers.png");
-    this.load.image("sun1", "assets/GameSceneAssets/sun1.png");
-    this.load.image("sun2", "assets/GameSceneAssets/sun2.png");
-    this.load.image("cloud1", "assets/GameSceneAssets/cloud1.png");
-    this.load.image("cloud2", "assets/GameSceneAssets/cloud2.png");
-    this.load.image("cloud3", "assets/GameSceneAssets/cloud3.png");    
-
-    this.load.image("Input-1", "assets/GameSceneAssets/Input-1.png");
-    this.load.image("Input-2", "assets/GameSceneAssets/Input-2.png");
-    this.load.image("Input-3", "assets/GameSceneAssets/Input-3.png");
-    this.load.image("Input-4", "assets/GameSceneAssets/Input-4.png");
-    this.load.image('cursor','/assets/GameSceneAssets/cursor.png');
-    this.load.image('meter','/assets/GameSceneAssets/meter.png');
-    this.load.image('marker','/assets/GameSceneAssets/marker.png');
-
-    this.load.image("line1", "assets/GameSceneAssets/line1.png");
-    this.load.image("line2", "assets/GameSceneAssets/line2.png");
-    this.load.image("line3", "assets/GameSceneAssets/line3.png");
-    this.load.image("line4", "assets/GameSceneAssets/line4.png");
-    this.load.image("line5", "assets/GameSceneAssets/line5.png");
-    this.load.image("line6", "assets/GameSceneAssets/line6.png");
-    this.load.image("line7", "assets/GameSceneAssets/line7.png");
   }
 
   create() {
 
-    this.scene.launch("HintScene")
+    //this.scene.launch("HintScene")
 
     this.anims.create({
       key: 'endConfetti',
@@ -264,6 +217,8 @@ this.load.image("leftText_on","assets/GameSceneAssets/leftText_on.png")
       }
       else{
 
+        //gameObject.x = 405.2
+
       }
 
       rect.setSize(405-gameObject.x,10)//.setFillStyle(	0x33cc66,1);
@@ -361,12 +316,12 @@ if(textEntry.text==''){enableflash = true
       targets:this.reply,
         alpha:0,
        ease: "sine.easeOut",
-       delay:2000,
+       delay:1000,
         duration: 400,
       repeat: 0,
       onComplete:()=>{
 
-        this.rightText.setTexture('rightText').setInteractive()
+        //this.rightText.setTexture('rightText').setInteractive()
         this.leftText.setInteractive()
       }
       });
@@ -462,9 +417,9 @@ if(textEntry.text==''){enableflash = true
     }
 
     else if(level==2){
-      this.tweens.timeScale =15;
+      this.tweens.timeScale =20;
 
-        this.sunrise = 6000*this.tweens.timeScale;
+        this.sunrise = 3000*this.tweens.timeScale;
 
 
         this.tweens.add({

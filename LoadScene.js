@@ -72,7 +72,8 @@ class LoadScene extends Phaser.Scene {
           Phaser.Animations.Events.ANIMATION_COMPLETE,
           function () {
             this.scene.stop("LoadScene");
-            this.scene.start("StartScene");
+            this.scene.launch("GameScene");
+            this.scene.launch("HintScene");
           },
           this
         );
@@ -84,15 +85,6 @@ class LoadScene extends Phaser.Scene {
   audioLoad() {
     //audio loaded here
 
-    this.load.audio("bgMusic", "assets/Audio/mysterious-cave-ambiance-1.mp3");
-    this.load.audio("doorUnlock", "assets/Audio/Automatic-door-unlock-slide-open.mp3");
-    this.load.audio("logoReveal", "assets/Audio/Beauty-intro-reveal-logo-2.mp3");
-    this.load.audio("keyTurn", "assets/Audio/Doorknob-unlock.mp3");
-    this.load.audio("correctAnswer", "assets/Audio/Feedback-correct.mp3");
-    this.load.audio("incorrectAnswer", "assets/Audio/Error-prompt-alert.mp3");
-    this.load.audio("chestOpen", "assets/Audio/Wood-chest-cover-opening.mp3");
-    this.load.audio("gemReveal", "assets/Audio/New-level-up-2-upgrade-1up-videogame-upgrade-1up-videogame.mp3");
-    this.load.audio("confetti", "assets/Audio/confetti.wav");
   }
 
   endSceneAssetsLoad() {
@@ -104,9 +96,61 @@ class LoadScene extends Phaser.Scene {
   startSceneAssetsLoad() {
     this.load.image("play_button", "assets/StartSceneAssets/play_button.png");
     this.load.image("play_button_on", "assets/StartSceneAssets/play_button_on.png");
-    this.load.image("Background", "assets/StartSceneAssets/Background.png");
-    this.load.image("box", "assets/StartSceneAssets/box.png");
-    this.load.image("web", "assets/StartSceneAssets/web.png");
+
+    
+    this.load.image("overlay", "assets/GameSceneAssets/overlay.png");
+
+    this.load.image("hint", "assets/GameSceneAssets/hint.png");
+    this.load.image("hint2", "assets/GameSceneAssets/hint2.png");
+    this.load.image("hintClose", "assets/GameSceneAssets/hintClose.png");
+
+    this.load.plugin('rexroundrectangleplugin', 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexroundrectangleplugin.min.js', true);
+    this.load.plugin('rexflashplugin', 'https://raw.githubusercontent.com/rexrainbow/phaser3-rex-notes/master/dist/rexflashplugin.min.js', true);
+    this.load.image("bg", "assets/GameSceneAssets/bg.png");
+    this.load.atlas('arrowBreatheAnim','/assets/GameSceneAssets/arrowBreatheAnim.png','/assets/GameSceneAssets/arrowBreatheAnim.json')
+this.load.atlas('arrowRevealAnim','/assets/GameSceneAssets/arrowRevealAnim.png','/assets/GameSceneAssets/arrowRevealAnim.json')
+this.load.atlas("endConfetti","assets/GameSceneAssets/checkConfettiAnim.png","assets/GameSceneAssets/checkConfettiAnim.json");
+
+this.load.image("wrong", "assets/GameSceneAssets/wrong.png");
+this.load.image("correct", "assets/GameSceneAssets/correct.png");
+
+this.load.image("rightText","assets/GameSceneAssets/rightText.png")
+
+this.load.image("rightText_on","assets/GameSceneAssets/rightText_on.png")
+this.load.image("leftText","assets/GameSceneAssets/leftText.png")
+this.load.image("leftText_on","assets/GameSceneAssets/leftText_on.png")    
+
+    this.load.image("mhand", "assets/GameSceneAssets/mhand.png");
+    this.load.image("hhand", "assets/GameSceneAssets/hhand.png");
+    for(let i=1;i<9;i++){
+    this.load.image("plus"+i, "assets/GameSceneAssets/"+i+".png");
+    }
+    for(let i=1;i<9;i++){
+      this.load.image("minus"+i, "assets/GameSceneAssets/-"+i+".png");
+      }
+
+    this.load.image("towers", "assets/GameSceneAssets/towers.png");
+    this.load.image("sun1", "assets/GameSceneAssets/sun1.png");
+    this.load.image("sun2", "assets/GameSceneAssets/sun2.png");
+    this.load.image("cloud1", "assets/GameSceneAssets/cloud1.png");
+    this.load.image("cloud2", "assets/GameSceneAssets/cloud2.png");
+    this.load.image("cloud3", "assets/GameSceneAssets/cloud3.png");    
+
+    this.load.image("Input-1", "assets/GameSceneAssets/Input-1.png");
+    this.load.image("Input-2", "assets/GameSceneAssets/Input-2.png");
+    this.load.image("Input-3", "assets/GameSceneAssets/Input-3.png");
+    this.load.image("Input-4", "assets/GameSceneAssets/Input-4.png");
+    this.load.image('cursor','/assets/GameSceneAssets/cursor.png');
+    this.load.image('meter','/assets/GameSceneAssets/meter.png');
+    this.load.image('marker','/assets/GameSceneAssets/marker.png');
+
+    this.load.image("line1", "assets/GameSceneAssets/line1.png");
+    this.load.image("line2", "assets/GameSceneAssets/line2.png");
+    this.load.image("line3", "assets/GameSceneAssets/line3.png");
+    this.load.image("line4", "assets/GameSceneAssets/line4.png");
+    this.load.image("line5", "assets/GameSceneAssets/line5.png");
+    this.load.image("line6", "assets/GameSceneAssets/line6.png");
+    this.load.image("line7", "assets/GameSceneAssets/line7.png");
 
   }
 
